@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.subWrapper {
+    margin-top: 50px;
+}
+
+.text {
+    background-color: #ffffff;
+    background-image: linear-gradient(-90deg, #E3535D, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subHeader {
+    font-size: 18px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    width: 420px;
+    height: 180px;
+    color: grey;
+    text-align: center;
+}
+
+.colorBlock {
+    color: white;
+}
+
+.block span {
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 160px;
+    margin: 3px 5px;
+    background: rgba(255, 255, 255, 0.01);
+}
+
+.block:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.button-text {
+    position: absolute;
+    color: white;
+    padding: 5px 0 0 15px;
+}
+
+.button {
+    background-image: url("/src/assets/images/button.png");
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 35px;
+    margin-top: 60px;
+}
+
+.button:hover {
+    box-shadow: 3px 3px 3px #E3535D;
+}
+
+.font-museosanscyrl700 {
+    font-family: "museosanscyrl-700";
+}
+
+@media screen and (max-width: 830px) {
+    .wrapper {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .blocks {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .wrapper {
+        margin-top: 0px;
+    }
+}

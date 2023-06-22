@@ -1,13 +1,33 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'museosanscyrl-100', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "museosanscyrl-100";
+  src: local("museosanscyrl-100"),
+  url("./assets/fonts/museosanscyrl-100.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "museosanscyrl-700";
+  src: local("museosanscyrl-700"),
+  url("./assets/fonts/museosanscyrl-700.ttf") format("truetype");
+  font-weight: bold;
 }

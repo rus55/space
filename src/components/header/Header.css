@@ -1,0 +1,65 @@
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.ml {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mr {
+    margin-right: 171px;
+}
+
+.NavWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-right: 45px;
+}
+
+.nav-link {
+    color: #DDDCDD !important;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: #DDDCDD;
+    border-bottom: 1px solid #DDDCDD;
+}
+
+.font-museosanscyrl700 {
+    font-family: "museosanscyrl-700";
+}
+
+@media screen and (max-width: 1000px) {
+    .cont {
+        flex-direction: column !important;
+    }
+    .mr {
+        margin-right: 0px;
+    }
+    .NavWrapper {
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+    .NavWrapper {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .blocks {
+        margin-top: 30px;
+    }
+}
