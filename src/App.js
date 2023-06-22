@@ -15,7 +15,7 @@ function App() {
         <Container className='container'>
             <Header />
             <Routes>
-                <Route path={'/'} element={<Main />} />
+                <Route path={'/space'} element={<Main />} />
                 <Route path={'/technology'} element={<Technology />} />
                 <Route path={'/flight-schedule'} element={<FlightSchedule />} />
                 <Route path={'/guarantees'} element={<Guarantees />} />

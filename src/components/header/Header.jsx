@@ -8,11 +8,11 @@ const Header = () => {
     return (
         <Navbar className='align-content-center ml'>
             <Container className='cont'>
-                <Link as={Link} to={"/"}>
+                <Link as={Link} to={"/space"}>
                     <Navbar.Brand className='mr'><Image src={logo} alt="Logo"/></Navbar.Brand>
                 </Link>
                 <Nav className="NavWrapper">
-                    <Nav.Link as={Link} to={"/"} eventKey="1"><span>Главная</span></Nav.Link>
+                    <Nav.Link as={Link} to={"/space"} eventKey="1"><span>Главная</span></Nav.Link>
                     <Nav.Link as={Link} to={"/technology"} eventKey="2">Технология</Nav.Link>
                     <Nav.Link as={Link} to={"/flight-schedule"} eventKey="3">График полетов</Nav.Link>
                     <Nav.Link as={Link} to={"/guarantees"} eventKey="4">Гарантии</Nav.Link>
