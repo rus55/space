@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/space/static/css/main.5393f902.css",
-    "main.js": "/space/static/js/main.7d9b95b7.js",
+    "main.js": "/space/static/js/main.bb98f9c7.js",
     "static/js/787.e5372b0f.chunk.js": "/space/static/js/787.e5372b0f.chunk.js",
     "static/media/background.png": "/space/static/media/background.3360f87c714136f0542f.png",
     "static/media/museosanscyrl-100.ttf": "/space/static/media/museosanscyrl-100.5363469df315b5a16118.ttf",
     "static/media/museosanscyrl-700.ttf": "/space/static/media/museosanscyrl-700.4e63f06b4aa58983885e.ttf",
     "index.html": "/space/index.html",
     "main.5393f902.css.map": "/space/static/css/main.5393f902.css.map",
-    "main.7d9b95b7.js.map": "/space/static/js/main.7d9b95b7.js.map",
+    "main.bb98f9c7.js.map": "/space/static/js/main.bb98f9c7.js.map",
     "787.e5372b0f.chunk.js.map": "/space/static/js/787.e5372b0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5393f902.css",
-    "static/js/main.7d9b95b7.js"
+    "static/js/main.bb98f9c7.js"
   ]
 }
